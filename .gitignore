@@ -1,0 +1,15 @@
+# Ignore the massive virtual environment
+nexus_env/
+
+# Ignore the 2GB of market data
+data_lake/
+*.parquet
+
+# Ignore the AI model weights
+brain/weights/
+*.pth
+
+# Ignore Python caches and credentials
+__pycache__/
+.env
+.DS_Store
